@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #54cbf0;
+}
+.pading-right {
+  padding-right:calc(var(--bs-gutter-x) * -0.5);
+}
+.view-detail{
+  color:"#54cbf0" !important;
+  text-decoration:"none" !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.view-detail:hover{
+text-decoration: underline !important;
+}
